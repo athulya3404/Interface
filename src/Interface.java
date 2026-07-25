@@ -3,7 +3,7 @@ interface Startable
     void start();
 }
 
-class Car implements Startable
+class Cars implements Startable
 {
     public void start()
     {
@@ -33,7 +33,7 @@ class Interface
     {
         Startable s;
 
-        s = new Car();
+        s = new Cars();
         s.start();
 
         s = new Bike();
